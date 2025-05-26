@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+   <header>
+    <div class="container">
+        <nav class="nav-bar">
+            <h1>Sixteen <em>Clothing</em></h1>
+
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-links" data-visible="false">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+
+        </nav>
+    </div>
+
+
+   </header>
+
+   
+ <script>
+  const burger = document.querySelector('.burger');
+  const navBar = document.querySelector('.nav-links');
+
+  burger.addEventListener('click', () => {
+    const isVisible = navBar.getAttribute('data-visible') === 'true';
+    navBar.setAttribute('data-visible', !isVisible);
+  });
+</script>
+
+</body>
+</html>
