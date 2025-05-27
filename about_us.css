@@ -59,16 +59,15 @@ body {
 
 /* our background header */
 
-.our-background {
-  margin-block: 3rem;
-}
-.our-background h2 {
+
+.titles {
   border-bottom: 1px solid rgba(21, 25, 29, 0.1);
   padding: 10px;
   font-size:28px ;
   font-weight: 400;
   text-transform: capitalize;
   color: #1e1e1e;
+  margin-block: 3rem;
 }
 
 /* our background content */
@@ -99,5 +98,44 @@ body {
   width: 50px;
   height: 50px;
 }
+/* team members section */
 
-
+.team-members .team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.team .member {
+  width: 350px;
+  height: 452.229px;
+  border: 1px solid rgba(21, 25, 29, 0.1);
+  margin-bottom: 1rem;
+}
+.team .member img {
+  width:348.656px ;
+  height:245px ;
+}
+.member .member-info {
+  text-align: center;
+}
+.member-info .name-title h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(26, 102, 146);
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  padding-top: 30px;
+}
+.member-info .name-title span {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(243, 63, 63);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.member-info .name-title p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(74, 74, 74);
+  padding: 10px;
+}
