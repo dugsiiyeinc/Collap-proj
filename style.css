@@ -88,11 +88,7 @@ header{
 }
 
 
-@media(min-width:991px){
-    .nav-links{
-        display: block !important;
-    }
-}
+
 
 @media(max-width:990px){
    
