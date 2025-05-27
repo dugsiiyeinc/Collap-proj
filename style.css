@@ -198,6 +198,33 @@ header{
         border-bottom: none;
      }
 
+     /*  home */
+
+     .home{
+        height: 50vh;
+     }
+
+     .home .container{
+        height: 100%;
+     }
+
+     .home .container h1{
+        font-size: 50px;
+        letter-spacing: 0px;
+     }
  
 
+}
+
+
+
+/* mobile */
+
+
+@media(max-width:760px){
+
+    .home .container h1{
+        font-size: 37px;
+
+    }
 }
