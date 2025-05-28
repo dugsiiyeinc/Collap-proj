@@ -139,3 +139,118 @@ body {
   color: rgb(74, 74, 74);
   padding: 10px;
 }
+/* middle part */
+.middle-part{
+  height: 562.396px;
+  background:url('https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/services-bg.jpg' ) center/cover no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 3rem;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-block: 4rem 6rem;
+  
+}
+
+.features-cards .card {
+  background-color: #ffffff;
+  color: #b7c6db;
+  padding: 2rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 6px;
+  /* box-shadow: 0 0 10px rgba(247, 219, 219, 0.5); */
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.features-cards .icon-box {
+  background-color: #8b0000;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.features-cards .icon-box i {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.features-cards h3 {
+  color: #1a6692;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.features-cards p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+  flex-grow: 1;
+}
+
+.features-cards .btn {
+  background-color: #8b0000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.features-cards .btn:hover {
+  background-color: #b22222;
+}
+
+/* Happy Partners Section */
+.happy-partners {
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.happy-partners h2 {
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+.happy-partners hr {
+  /* border: 1px solid #444; */
+  margin: 1rem 0;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.partners-logos img {
+  width: 30%;
+  filter: brightness(70%);
+  object-fit: contain;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2rem;
+  color: #888;
+}
+
+.footer-text .designer {
+  color: #b22222;
+  font-weight: 600;
+}
