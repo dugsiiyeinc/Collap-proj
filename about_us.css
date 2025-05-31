@@ -257,3 +257,53 @@ body {
   font-weight: 600;
 }
 /* end of footer section */
+
+/* responsive part of the mobile */
+
+@media (max-width: 768px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  
+
+  .team-members .team {
+    grid-template-columns: 1fr;
+    
+  }
+
+  .team .member {
+    width: 100%;
+    height: auto;
+  }
+   .team .member img {
+    width: 100%;
+    height: auto;
+  }
+
+  .middle-part{
+  height: 1500px;
+  }
+
+  .features-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-cards .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}
+/* end of mobile responsive part */
+
+
+
+
+
