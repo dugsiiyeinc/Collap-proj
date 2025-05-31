@@ -163,3 +163,33 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
+/* Happy Partners Section */
+.happy-partners {
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.happy-partners h2 {
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+.happy-partners hr {
+  /* border: 1px solid #444; */
+  margin: 1rem 0;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.partners-logos img {
+  width: 30%;
+  filter: brightness(70%);
+  object-fit: contain;
+}
+
+/* end of happy partners section */
