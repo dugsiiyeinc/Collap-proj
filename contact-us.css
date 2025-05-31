@@ -245,7 +245,26 @@ body {
   }
 }
 
+/* responsive part of the tablet */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container .content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content-Map {
+    grid-column: span 2;
+  }
+
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .partners-logos img {
+    width: 45%;
+  }
+}
 
 
 
