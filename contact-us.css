@@ -206,3 +206,53 @@ body {
   font-weight: 600;
 }
 /* end of footers section */
+
+/* responsive */
+
+/* Responsive part of the phone   */
+@media (max-width: 768px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+  
+  .content-Map {
+    grid-column: span 1;
+  }
+
+  .content-info {
+    flex-direction: column;
+  }
+
+  .soc-med-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .soc-med-icons i {
+    width: auto;
+    flex: 1;
+    text-align: center;
+  }
+
+  .form-info {
+    grid-column: span 1;
+  }
+
+ 
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
