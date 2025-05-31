@@ -303,6 +303,47 @@ body {
 }
 /* end of mobile responsive part */
 
+/* responsive part of the tablet  */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  
+
+  .team-members .team {
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+  .team .member {
+    width: 100%;
+    height: auto;
+  }
+   .team .member img {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+
+  .features-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .features-cards .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* end of tablet responsive part */
+
 
 
 
