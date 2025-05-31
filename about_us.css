@@ -242,7 +242,9 @@ body {
   filter: brightness(70%);
   object-fit: contain;
 }
+/* end partners section*/
 
+/* footer section */
 .footer-text {
   text-align: center;
   font-size: 12px;
@@ -254,3 +256,4 @@ body {
   color: #b22222;
   font-weight: 600;
 }
+/* end of footer section */
