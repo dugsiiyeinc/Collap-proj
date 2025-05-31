@@ -193,3 +193,16 @@ body {
 }
 
 /* end of happy partners section */
+
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2rem;
+  color: #888;
+}
+
+.footer-text .designer {
+  color: #b22222;
+  font-weight: 600;
+}
+/* end of footers section */
