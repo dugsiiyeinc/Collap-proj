@@ -121,3 +121,45 @@ body {
   width: 50px;
   height: 50px;
 }
+
+/* form part */
+.form-info {
+    grid-column: span 2;
+}
+.form-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-info form input,
+.form-info form textarea {
+  padding: 10px;
+  border: 1px solid rgba(21, 25, 29, 0.1);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #1e1e1e;
+}
+.form-info button {
+  padding: 10px;
+  background-color: #f33f3f;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.bord1 {
+ border-bottom: 1px solid rgba(21, 25, 29, 0.1);
+}
+.bord{
+    border-top: 1px solid rgba(21, 25, 29, 0.1);
+}
+.like-link {
+    padding-inline: 10px;
+}
+.like-link h4 {
+  color: #1a6692;
+  text-decoration: none;
+  font-weight: 500;
+}
