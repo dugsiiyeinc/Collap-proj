@@ -52,6 +52,7 @@ img{
     text-transform: uppercase;
      float: right;
      padding-top: 15px;
+     cursor: pointer;
 }
 
 /*  product blog */
@@ -83,6 +84,7 @@ img{
     font-size: 19px;
     font-weight: 500;
     color: #1a6692;
+    cursor: pointer;
 }
 .title-price h5{
     font-size: 19px;
