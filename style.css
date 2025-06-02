@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: 'poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    
+    width: min(90%, 1120px);
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.121);
+    position: relative;
+    
+
+
+}
+ .nav-bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+ }
+
+ .nav-bar h1{
+    text-transform: uppercase;
+    cursor: pointer;
+   
+
+ }
+
+ em{
+    color: rgb(243, 63, 63);
+    font-style: normal;
+ }
+
+
+
+ .nav-links ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+ .nav-links ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+ .nav-links ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(30, 30, 30);
+ }
+
+ .nav-links ul li a:hover{
+    color: rgb(243, 63, 63);
+    border-bottom: solid 3px rgb(243, 63, 63);
+    padding-bottom: 25px;
+ }
+
+.burger i{
+    padding: 20px;
+    color: red;
+    right: 15px;
+    bottom: 9px;
+    display: none;
+    font-size: 17px;
+    background-color: white;
+}
+
+
+
+/*  home */
+
+
+.home{
+    background: url(https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/slide_01.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+
+    
+}
+
+.home .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    padding-top: 10px;
+}
+.home .container h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #f33f3f;
+    font-size: 22px;
+    font-weight: 700;
+   
+}
+.home .container h1{
+    color: white;
+    font-size: 62px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media(max-width:990px){
+   
+    .burger i{
+        display: block;
+         position: absolute;
+         z-index: 4;
+    }
+
+    .nav-bar h1{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 25px 30px;
+    /* text-align: center; */
+    z-index: 3;
+    position: absolute;
+    left: 0;
+       
+    }
+
+     .nav-links{
+         background-color: white;
+        position: absolute;
+        left: 0;
+        top: 79px;
+        
+        width: 100%;
+        padding: 10px 0px;
+        box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.096);
+        z-index: 2;
+        transform: translateY(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .nav-links[data-visible="false"]{
+         transform: translateY(-100%);
+    }
+
+    .nav-links ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+
+    .nav-links ul li{
+
+    border-bottom: 1px solid #1c030319;
+    padding-block: 5px 20px;
+
+    width: 100%;
+    text-align: center;
+
+     }
+
+     .nav-links ul li:last-child{
+        border-bottom: none;
+        padding-bottom: 10px;
+     }
+
+     .nav-links ul li a:hover{
+        border-bottom: none;
+     }
+
+     /*  home */
+
+     .home{
+        height: 50vh;
+     }
+
+     .home .container{
+        height: 100%;
+     }
+
+     .home .container h1{
+        font-size: 50px;
+        letter-spacing: 0px;
+     }
+ 
+
+}
+
+
+
+/* mobile */
+
+
+@media(max-width:760px){
+
+    .home .container h1{
+        font-size: 37px;
+
+    }
+}
