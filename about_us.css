@@ -1,0 +1,350 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+.container {
+  width: min(90%, 1120px);
+  margin-inline: auto;
+}
+
+/* hero properties */
+.hero{
+    background: url('https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/about-heading.jpg') no-repeat center center/cover;  
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;  
+    height: calc(100vh - 80px);  
+    text-align: center; 
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.hero h4 {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f33f3f;
+}
+
+.hero h2{
+  font-family: Poppins, sans-serif;
+  font-size: 62px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* our background  section*/
+
+/* our background header */
+
+
+.titles {
+  border-bottom: 1px solid rgba(21, 25, 29, 0.1);
+  padding: 10px;
+  font-size:28px ;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  margin-block: 3rem;
+}
+
+/* our background content */
+
+.container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.soc-med-icons {
+ display: flex;
+ gap: 10px;
+ margin-top: 20px;
+ border-top: 1px solid rgba(21, 25, 29, 0.1);
+ padding: 10px;
+}
+
+.soc-med-icons i {
+   border-bottom: 1px solid rgba(21, 25, 29, 0.1);
+  background-color: #eeeeee; 
+  color: #000; 
+  padding: 15px;
+   font-size:18px ;
+  font-weight: 400;
+  border-radius: 0; 
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+}
+/* team members section */
+
+.team-members .team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.team .member {
+  width: 350px;
+  height: 452.229px;
+  border: 1px solid rgba(21, 25, 29, 0.1);
+  margin-bottom: 1rem;
+}
+.team .member img {
+  width:348.656px ;
+  height:245px ;
+}
+.member .member-info {
+  text-align: center;
+}
+.member-info .name-title h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(26, 102, 146);
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  padding-top: 30px;
+}
+.member-info .name-title span {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(243, 63, 63);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.member-info .name-title p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(74, 74, 74);
+  padding: 10px;
+}
+/* middle part */
+.middle-part{
+  height: 562.396px;
+  background:url('https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/services-bg.jpg' ) center/cover no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 3rem;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-block: 4rem 6rem;
+  
+}
+
+.features-cards .card {
+  background-color: #ffffff;
+  color: #b7c6db;
+  padding: 2rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 6px;
+  /* box-shadow: 0 0 10px rgba(247, 219, 219, 0.5); */
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.features-cards .icon-box {
+  background-color: #8b0000;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.features-cards .icon-box i {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.features-cards h3 {
+  color: #1a6692;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.features-cards p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+  flex-grow: 1;
+}
+
+.features-cards .btn {
+  background-color: #8b0000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.features-cards .btn:hover {
+  background-color: #b22222;
+}
+
+/* Happy Partners Section */
+.happy-partners {
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.happy-partners h2 {
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+
+.happy-partners hr {
+  /* border: 1px solid #444; */
+  margin: 1rem 0;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.partners-logos img {
+  width: 30%;
+  filter: brightness(70%);
+  object-fit: contain;
+}
+/* end partners section*/
+
+/* footer section */
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2rem;
+  color: #888;
+}
+
+.footer-text .designer {
+  color: #b22222;
+  font-weight: 600;
+}
+/* end of footer section */
+
+/* responsive part of the mobile */
+
+@media (max-width: 768px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  
+
+  .team-members .team {
+    grid-template-columns: 1fr;
+    
+  }
+
+  .team .member {
+    width: 100%;
+    height: auto;
+  }
+   .team .member img {
+    width: 100%;
+    height: auto;
+  }
+
+  .middle-part{
+  height: 1500px;
+  }
+
+  .features-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-cards .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}
+/* end of mobile responsive part */
+
+/* responsive part of the tablet  */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  
+
+  .team-members .team {
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+  .team .member {
+    width: 100%;
+    height: auto;
+  }
+   .team .member img {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+
+  .features-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .features-cards .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* end of tablet responsive part */
+
+
+
+
+
