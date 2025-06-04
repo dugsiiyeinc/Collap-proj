@@ -214,7 +214,7 @@ header{
 .clothing-contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-block: 3rem 1rem;
+    padding-block: 5rem;
     border-block: 1px solid rgba(0, 0, 0, 0.094);
     
 }
