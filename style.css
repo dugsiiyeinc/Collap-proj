@@ -214,7 +214,7 @@ header{
 .clothing-contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-block: 3rem 1rem;
+    padding-block: 5rem;
     border-block: 1px solid rgba(0, 0, 0, 0.094);
     
 }
@@ -272,6 +272,37 @@ header{
 .btn:hover{
     background-color: #121212;
 }
+
+
+
+/* creative */
+.creative{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 4rem;
+    background-color: rgba(50, 46, 46, 0.043);
+}
+
+.creative-title {
+    padding: 25px;
+    width: 70%;
+}
+
+.creative-title h2{
+    color: #1a6692;
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.creative-title p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #4a4a4a;
+    
+}
+
 
 
 
@@ -421,6 +452,21 @@ header{
         grid-template-columns: 1fr;
         gap: 10px;
     }
+    
+     /*  creative section */
+    .creative{
+        flex-direction: column;
+
+    }
+    .creative-title{
+        width: 100%;
+        text-align: center !important;
+    }
+    .creative .btn{
+        display: inline-block;
+        width: 80%;
+    }
+
     
 }
 /* end  */
