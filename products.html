@@ -10,7 +10,28 @@
     <link rel="stylesheet" href="products.css">
 </head>
 <body>
-        </section>
+  <!-- header  -->
+      <header>
+        <!-- nav-bar and links -->
+        <nav class="nav-bar">
+            <h1>Sixteen <em>Clothing</em></h1>
+
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-links" data-visible="false">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+         </nav>
+         <!-- nav-bar and links end -->
+      </header>
+   <!-- header end -->
 
     <!-- products -->
     <section class="container">
@@ -206,7 +227,15 @@
       </div>
     </section>
 
+    <script>
+  const burger = document.querySelector('.burger');
+  const navBar = document.querySelector('.nav-links');
 
+  burger.addEventListener('click', () => {
+    const isVisible = navBar.getAttribute('data-visible') === 'true';
+    navBar.setAttribute('data-visible', !isVisible);
+  });
+</script>
     
 </body>
 </html>
