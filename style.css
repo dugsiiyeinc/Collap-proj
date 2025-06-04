@@ -203,6 +203,79 @@ header{
 
 
 
+/*  about section */
+
+.about h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-block: 3rem 1rem;
+}
+
+.clothing-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 3rem 1rem;
+    border-block: 1px solid rgba(0, 0, 0, 0.094);
+    
+}
+
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.contact-name h3{
+
+    color: #1a6692;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-name p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 24px;
+}
+.contact-name span{
+    color: #2958f1;
+    cursor: pointer;
+}
+
+.contact-list p{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.contact-list p:hover{
+    color: #f33f3f;
+}
+
+.clothing-contact img{
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: #f33f3f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #121212;
+}
+
+
+
+
 
 
 
@@ -340,6 +413,13 @@ header{
     }
     .product-blogs .blog img{
        width: 100%;
+    }
+    
+
+    /* about section */
+    .clothing-contact{
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
     
 }
