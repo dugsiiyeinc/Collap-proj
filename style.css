@@ -304,7 +304,15 @@ header{
 }
 
 
-
+footer{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-block: 3.75rem;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+}
 
 
 
