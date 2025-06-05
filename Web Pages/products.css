@@ -28,7 +28,15 @@ header{
     width: 100%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.121);
     position: relative;
+    background-color: white;
 }
+
+.sticky{
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
 /* nav-bars */
  .nav-bar{
     height: 80px;
@@ -36,7 +44,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 17px;
-    background-color: #e2e6ea;
+    /* background-color: #e2e6ea; */
  }
 
  .nav-bar h1{
