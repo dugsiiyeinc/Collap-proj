@@ -258,5 +258,12 @@
   const burger = document.querySelector('.burger');
   const navBar = document.querySelector('.nav-links');
 
-  burger.addEventListener('click', () => {
-    const isVisible = navBar.getAttribut
+    burger.addEventListener('click', () => {
+    const isVisible = navBar.getAttribute('data-visible') === 'true';
+    navBar.setAttribute('data-visible', !isVisible);
+  });
+</script>
+
+    
+</body>
+</html>
