@@ -41,9 +41,14 @@ This clear division of work made the development process smoother and helped eac
 
 The website is fully responsive and adjusts seamlessly to desktops, tablets, and mobile screens.
 
+## ✨ Deployment Preview
+
 Here’s a screenshot of the live deployed version of the site:
 
-![https://collap-proj.vercel.app/](./Assets/Screenshot 2025-06-07 132948)
+[🌐 View Live Site](https://collap-proj.vercel.app/)
+
+![Deployed Screenshot](./Assets/deployment_screenshot.png)
+
 
 
 ---
