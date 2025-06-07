@@ -96,8 +96,7 @@ header{
     display: flex;
     justify-content: center;  
     align-items: center;      
-    height: 100vh;  
-    height: calc(100vh - 80px);  
+    height: 70vh;  
     text-align: center; 
 }
 
@@ -332,6 +331,15 @@ header{
 /* responsive part of the mobile */
 
 @media (max-width: 768px) {
+  /* hero */
+  .hero {
+    height: 50vh;
+  }
+  .hero h2 {
+    font-size: 36px;
+  }
+  /* end hero */
+  
 /* nav-bar reponsive */
     .burger i{
         display: block;
